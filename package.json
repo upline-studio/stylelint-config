@@ -1,0 +1,22 @@
+{
+  "name": "@up-line/stylelint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/vaiil",
+  "license": "ISC",
+  "dependencies": {
+    "@up-line/stylelint-bem-ruleset": "^1.0.4",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order-fix": "^0.1.9",
+    "stylelint-config-recommended-scss": "^5.0.2",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=13.0.0"
+  }
+}
