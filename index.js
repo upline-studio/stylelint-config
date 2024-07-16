@@ -2,7 +2,7 @@ export default {
   extends: [
     'stylelint-config-recommended-scss',
     'stylelint-config-standard',
-    '@sazuru/stylelint-config-rational-order',
+    '@up-line/stylelint-config-rational-order',
   ],
   plugins: ['@up-line/stylelint-bem-ruleset'],
   rules: {
